@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'NEOHome' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NEOHome
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Firebase/Functions'
+  pod 'Firebase/Performance'
+  pod 'Firebase/Auth'
+  pod 'SwiftyJSON', '~> 4.0'
+
+  target 'NEOHomeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NEOHomeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

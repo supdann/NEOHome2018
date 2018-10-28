@@ -1,0 +1,11 @@
+framework module UIEmptyState {
+  umbrella header "UIEmptyState.h"
+
+  export *
+  module * { export * }
+}
+
+module UIEmptyState.Swift {
+    header "UIEmptyState-Swift.h"
+    requires objc
+}

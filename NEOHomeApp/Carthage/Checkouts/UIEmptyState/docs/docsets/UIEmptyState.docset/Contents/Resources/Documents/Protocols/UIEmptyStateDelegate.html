@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIEmptyStateDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Protocol/UIEmptyStateDelegate" class="dashAnchor"></a>
+
+    <a title="UIEmptyStateDelegate Protocol Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          UIEmptyState Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/luispadron/UIEmptyState">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">UIEmptyState Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      UIEmptyStateDelegate Protocol Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UIEmptyStateView.html">UIEmptyStateView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UICollectionViewController.html">UICollectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UITableViewController.html">UITableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/UIEmptyStateDataSource.html">UIEmptyStateDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/UIEmptyStateDelegate.html">UIEmptyStateDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>UIEmptyStateDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">UIEmptyStateDelegate</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                </div>
+              </div>
+            <p>The delegate for UIEmptyStateView</p>
+
+<p><strong>Important:</strong>
+This delegate and its functions are only used when using <code><a href="../Classes/UIEmptyStateView.html">UIEmptyStateView</a></code>.
+If you will provide a custom view in the <code><a href="../Protocols/UIEmptyStateDataSource.html">UIEmptyStateDataSource</a></code> <code>viewForEmptyState</code>
+you must handle how this delegate operates</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12UIEmptyState0aB8DelegateP05emptyB12ViewWillShowySo6UIViewC4view_tF"></a>
+                    <a name="//apple_ref/swift/Method/emptyStateViewWillShow(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12UIEmptyState0aB8DelegateP05emptyB12ViewWillShowySo6UIViewC4view_tF">emptyStateViewWillShow(view:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call back for when the <code>emptyStateView</code> will be shown on screen</p>
+
+<ul>
+<li>view: The view that is will show</li>
+</ul>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Default empty implementation of <code>emptyStateViewWillShow</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emptyStateViewWillShow</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12UIEmptyState0aB8DelegateP05emptyB11ViewDidShowySo6UIViewC4view_tF"></a>
+                    <a name="//apple_ref/swift/Method/emptyStateViewDidShow(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12UIEmptyState0aB8DelegateP05emptyB11ViewDidShowySo6UIViewC4view_tF">emptyStateViewDidShow(view:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call back for when the <code>emptyStateView</code> is now shown on screen</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Default empty implementation of <code>emptyStateViewDidShow</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emptyStateViewDidShow</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The view that is now shown</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12UIEmptyState0aB8DelegateP05emptyB12ViewWillHideySo6UIViewC4view_tF"></a>
+                    <a name="//apple_ref/swift/Method/emptyStateViewWillHide(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12UIEmptyState0aB8DelegateP05emptyB12ViewWillHideySo6UIViewC4view_tF">emptyStateViewWillHide(view:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call back for when the <code>emptyStateView</code> will be hidden</p>
+
+<ul>
+<li>view: The view that will be hidden</li>
+</ul>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Default empty implementation of <code>emptyStateViewWillHide</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emptyStateViewWillHide</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12UIEmptyState0aB8DelegateP25emptyStatebuttonWasTappedySo8UIButtonC6button_tF"></a>
+                    <a name="//apple_ref/swift/Method/emptyStatebuttonWasTapped(button:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12UIEmptyState0aB8DelegateP25emptyStatebuttonWasTappedySo8UIButtonC6button_tF">emptyStatebuttonWasTapped(button:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call back for when the button inside the emptyStateView is tapped</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Default empty implementation of <code>emptyStateButtonWasTapped</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emptyStatebuttonWasTapped</span><span class="p">(</span><span class="nv">button</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>button</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The button that was tapped</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12UIEmptyState0aB8DelegateP05emptyB13ViewWasTappedySo6UIViewC4view_tF"></a>
+                    <a name="//apple_ref/swift/Method/emptyStateViewWasTapped(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12UIEmptyState0aB8DelegateP05emptyB13ViewWasTappedySo6UIViewC4view_tF">emptyStateViewWasTapped(view:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call back for when the emptyStateView itself is tapped</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Default empty implementation of <code>emptyStateViewWasTapped</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emptyStateViewWasTapped</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The view that was tapped</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12UIEmptyState0aB8DelegateP05emptyB22ViewAnimationCompletedySo6UIViewC3for_Sb9didFinishtF"></a>
+                    <a name="//apple_ref/swift/Method/emptyStateViewAnimationCompleted(for:didFinish:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12UIEmptyState0aB8DelegateP05emptyB22ViewAnimationCompletedySo6UIViewC3for_Sb9didFinishtF">emptyStateViewAnimationCompleted(for:didFinish:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call back for when the animation of the emptyStateView is done</p>
+
+<ul>
+<li>paramaters:
+
+<ul>
+<li>view: The view which finished animating</li>
+<li>didFinish: Whether the animation finished completely, i.e not interrupted</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Default empty implementation of <code>emptyStateViewAnimationCompleted</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emptyStateViewAnimationCompleted</span><span class="p">(</span><span class="k">for</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">didFinish</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="https://luispadron.com" target="_blank" rel="external">Luis</a>. All rights reserved. (Last updated: 2018-04-09)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

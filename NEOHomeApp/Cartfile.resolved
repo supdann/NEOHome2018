@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.7.3"
+github "SwiftKickMobile/SwiftMessages" "6.0.0"
+github "hackiftekhar/IQKeyboardManager" "v6.2.0"
+github "kishikawakatsumi/KeychainAccess" "v3.1.2"
+github "luispadron/UIEmptyState" "v4.0.1"
+github "ninjaprox/NVActivityIndicatorView" "4.4.0"

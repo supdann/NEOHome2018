@@ -1,0 +1,16 @@
+PODS:
+  - UIEmptyState (4.0.0)
+
+DEPENDENCIES:
+  - UIEmptyState (from `../`)
+
+EXTERNAL SOURCES:
+  UIEmptyState:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIEmptyState: a299e655ecb6fc077dfb503c375ef9a023103240
+
+PODFILE CHECKSUM: 2410e5e41e5d4570ddd34538c5ba93d5d35ce08c
+
+COCOAPODS: 1.5.3

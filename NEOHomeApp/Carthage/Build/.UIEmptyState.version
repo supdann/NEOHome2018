@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v4.0.1",
+  "iOS" : [
+    {
+      "name" : "UIEmptyState",
+      "hash" : "5b45ab40fc264c6926e195f36bd3182b47918fb0fbff8b0121f2d73ec1ee5a82"
+    }
+  ]
+}

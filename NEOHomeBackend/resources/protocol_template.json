@@ -1,0 +1,10 @@
+{
+	"message": {
+		"IssuerPublicKey": "SomePublicKey",
+		"script_hash": "0c9b501f156839994d5c788aea55fb07192958c6",
+		"deviceID": "123456789-abcde",
+		"timestamp": 1234567890
+	},
+	"signature": "SignatureByIssuer"
+}
+

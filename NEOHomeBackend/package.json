@@ -1,0 +1,23 @@
+{
+  "name": "neohome",
+  "version": "1.0.0",
+  "description": "Example backend application for NEOHome app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "NEO"
+  ],
+  "author": "Daniel Montano",
+  "license": "MIT",
+  "dependencies": {
+    "@cityofzion/neon-js": "^4.1.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsum": "^0.1.4"
+  }
+}
+
+
+
